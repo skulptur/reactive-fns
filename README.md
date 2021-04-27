@@ -1,8 +1,8 @@
-Tagline of up to 20 words here
+Tiny and powerful functional reactive programming library written in Typescript
 
 ## Motivation
 
-Single paragraph about why this library exists
+This library is based on the brilliant Callbag spec by André Staltz, which allows to create both pullable and listenable sources from simple functions. That makes it extremely lightweight and flexible. Because it is tiny it shines when used as a primitive for libraries or apps.
 
 ## Get started
 
@@ -17,24 +17,13 @@ yarn add reactive-fns
 Use
 
 ```typescript
-import { noop } from 'reactive-fns'
+import { tap, interval, map, forEach, pipe, filter } from 'reactive-fns'
 
-console.log(noop()) // undefined
-```
-
-[Examples](https://github.com/skulptur/reactive-fns/tree/master/example)
-
-## API
-
-- Functions that can be pure, are pure.
-- The argument order is optimized for partial application.
-
-Exports:
-
-### below
-
-`() => void`
-
-```typescript
-const nothing = noop() // undefined
+pipe(
+    interval(1000),
+    tap(v => console.log('Before: ' + v)),
+    map(x => x * 3),
+    filter(x => x % 2 === 0),
+    forEach(v => console.log('After: ' + v))
+)
 ```
