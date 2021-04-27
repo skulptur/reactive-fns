@@ -39,16 +39,16 @@
     "jsxSingleQuote": true,
     "arrowParens": "always"
   },
-  "name": "library-name-fns",
+  "name": "reactive-fns",
   "author": "Gustavo Spredemann",
-  "module": "dist/library-name-fns.esm.js",
+  "module": "dist/reactive-fns.esm.js",
   "size-limit": [
     {
-      "path": "dist/library-name-fns.cjs.production.min.js",
+      "path": "dist/reactive-fns.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/library-name-fns.esm.js",
+      "path": "dist/reactive-fns.esm.js",
       "limit": "10 KB"
     }
   ],

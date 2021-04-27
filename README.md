@@ -9,20 +9,20 @@ Single paragraph about why this library exists
 Install
 
 ```bash
-npm install --save library-name-fns
+npm install --save reactive-fns
 # or
-yarn add library-name-fns
+yarn add reactive-fns
 ```
 
 Use
 
 ```typescript
-import { noop } from 'library-name-fns'
+import { noop } from 'reactive-fns'
 
 console.log(noop()) // undefined
 ```
 
-[Examples](https://github.com/skulptur/library-name-fns/tree/master/example)
+[Examples](https://github.com/skulptur/reactive-fns/tree/master/example)
 
 ## API
 
