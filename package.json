@@ -1,8 +1,12 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "keywords": [
     "callbag",  "observable", "iterable", "streams", "reactive", "functional"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skulptur/reactive-fns.git"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
