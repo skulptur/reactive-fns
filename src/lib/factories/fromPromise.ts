@@ -1,5 +1,5 @@
 import internalFromPromise from 'callbag-from-promise';
-import {share} from "./share";
+import {share} from "../operators/share";
 
 /**
  * fromPromise

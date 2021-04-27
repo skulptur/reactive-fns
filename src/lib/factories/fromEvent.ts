@@ -1,5 +1,5 @@
 import internalFromEvent from 'callbag-from-event';
-import {share} from "./share";
+import {share} from "../operators/share";
 
 /**
  * fromEvent
