@@ -58,4 +58,4 @@ pipe(
 - forEach: Subscribes to given callbag.
 - log: Shortcut for console.log in a forEach.
 - pipe: Pipes sources to operators to sinks.
-- tap: Taps into given callbag (without subscribing).
+- tap: Taps into given callbag.
