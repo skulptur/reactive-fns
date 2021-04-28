@@ -17,7 +17,7 @@ yarn add reactive-fns
 Use
 
 ```typescript
-import { tap, interval, map, forEach, pipe, filter } from 'reactive-fns'
+import { pipe, interval, tap, map, filter, forEach } from 'reactive-fns'
 
 pipe(
     interval(1000),
@@ -31,15 +31,15 @@ pipe(
 ### Source Creators
 
 - fromEvent: Listen to DOM event.
-- fromPromise: Converts a promise to a callbag.
+- fromPromise: Converts a promise to a stream.
 - interval: Emits an increasing number at given intervals.
-- of: Convert static value(s) to a callbag.
+- of: Convert static value(s) to a stream.
 
 ### Operators
 
 - debounce: Debounces incoming values.
 - filter: Filters incoming values.
-- flatten: Flattens higher-order callbags.
+- flatten: Flattens higher-order streams.
 - map: Transforms incoming values.
 - scan: Combine consecutive values from source.
 - share: Multicast source.
@@ -50,12 +50,12 @@ pipe(
 ### Combinators
 
 - concat: Combine sources by putting one source after the previous source ends.
-- merge: Merges given callbags, emitting when each one emits.
-- combine: Combines given callbags, emits arrays of latest values of each.
+- merge: Merges given streams, emitting when each one emits.
+- combine: Combines given streams, emits arrays of latest values of each.
 
 ### Utilities
 
-- forEach: Subscribes to given callbag.
+- forEach: Subscribes to given stream.
 - log: Shortcut for console.log in a forEach.
 - pipe: Pipes sources to operators to sinks.
-- tap: Taps into given callbag.
+- tap: Taps into given stream.
