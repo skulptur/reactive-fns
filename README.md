@@ -55,7 +55,7 @@ pipe(
 
 ### Utilities
 
+- extract: Get the last emitted value if it exists.
 - forEach: Subscribes to given stream.
-- log: Shortcut for console.log in a forEach.
 - pipe: Pipes sources to operators to sinks.
 - tap: Taps into given stream.
