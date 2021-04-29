@@ -1,5 +1,3 @@
-Tiny and powerful functional reactive programming library for Typescript.
-
 ## Motivation
 
 This library is based on the brilliant [Callbag](https://github.com/callbag/callbag) spec by André Staltz, which allows creating both pullable and listenable sources from simple functions. That makes it lightweight and flexible and that's why it shines when used as a primitive for libraries or apps!
