@@ -43,6 +43,7 @@ pipe(
 - filter: Filters incoming values.
 - flatten: Flattens higher-order streams.
 - map: Transforms incoming values.
+- map: Transforms the contents of the stream to the provided value.
 - scan: Combine consecutive values from source.
 - share: Multicast source.
 - skip: Ignores the first n of the source.
