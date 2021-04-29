@@ -20,7 +20,5 @@ export { take } from './lib/operators/take'
 // utils
 export { extract } from './lib/utils/extract'
 export { forEach } from './lib/utils/forEach'
-export { log } from './lib/utils/log'
 export { pipe } from './lib/utils/pipe'
 export { tap } from './lib/utils/tap'
-
