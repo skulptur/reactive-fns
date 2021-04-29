@@ -2,7 +2,7 @@
 export { combine } from './lib/combinators/combine'
 export { concat } from './lib/combinators/concat'
 export { merge } from './lib/combinators/merge'
-//factories
+// factories
 export { fromEvent } from './lib/factories/fromEvent'
 export { fromPromise } from './lib/factories/fromPromise'
 export { interval } from './lib/factories/interval'
