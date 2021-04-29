@@ -1,7 +1,11 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "keywords": [
-    "callbag",  "observable", "iterable", "streams", "reactive", "functional"
+    "callbag",
+    "observable",
+    "iterable",
+    "streams",
+    "reactive",
     "functional"
   ],
   "repository": {
@@ -79,7 +83,8 @@
     "callbag-share": "1.3.0",
     "callbag-skip": "1.1.0",
     "callbag-subscribe": "^1.5.1",
-    "callbag-take": "^1.5.0"
+    "callbag-take": "^1.5.0",
+    "common-fns": "^0.1.1"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.2",
