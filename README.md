@@ -2,7 +2,8 @@ Tiny and powerful functional reactive programming library for Typescript.
 
 ## Motivation
 
-This library is based on the brilliant Callbag spec by André Staltz, which allows to create both pullable and listenable sources from simple functions. That makes it extremely lightweight and flexible. Because it is tiny it shines when used as a primitive for libraries or apps!
+This library is based on the brilliant Callbag spec by André Staltz, which allows creating both pullable and listenable sources from simple functions. That makes it extremely lightweight and flexible and that's why it shines when used as a primitive for libraries or apps!
+
 
 ## Get started
 
@@ -27,6 +28,7 @@ pipe(
     forEach(v => console.log('After: ' + v))
 )
 ```
+
 
 ### Source Creators
 
@@ -60,3 +62,9 @@ pipe(
 - forEach: Subscribes to given stream.
 - pipe: Pipes sources to operators to sinks.
 - tap: Taps into given stream.
+
+
+## Learn more
+
+* [Callbag basics](https://github.com/staltz/callbag-basics)
+* [Why we need callbags](https://staltz.com/why-we-need-callbags.html)
