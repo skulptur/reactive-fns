@@ -2,6 +2,7 @@
   "version": "0.1.7",
   "keywords": [
     "callbag",  "observable", "iterable", "streams", "reactive", "functional"
+    "functional"
   ],
   "repository": {
     "type": "git",
