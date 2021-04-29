@@ -17,6 +17,7 @@ export { share } from './lib/operators/share'
 export { skip } from './lib/operators/skip'
 export { startWith } from './lib/operators/startWith'
 export { take } from './lib/operators/take'
+export { withPrevious } from './lib/operators/withPrevious'
 // utils
 export { extract } from './lib/utils/extract'
 export { forEach } from './lib/utils/forEach'
