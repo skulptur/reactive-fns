@@ -18,6 +18,7 @@ export { skip } from './lib/operators/skip'
 export { startWith } from './lib/operators/startWith'
 export { take } from './lib/operators/take'
 // utils
+export { extract } from './lib/utils/extract'
 export { forEach } from './lib/utils/forEach'
 export { log } from './lib/utils/log'
 export { pipe } from './lib/utils/pipe'
