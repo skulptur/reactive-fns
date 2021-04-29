@@ -4,7 +4,7 @@ import internalMap from 'callbag-map';
  * map
  * --------------
  *
- * To transform the contents of the stream.
+ * Transforms the contents of the stream with the provided function.
  *
  */
 export const map = internalMap
