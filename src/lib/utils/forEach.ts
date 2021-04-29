@@ -1,10 +1,10 @@
-import internalForEach from 'callbag-for-each'
+import { subscribe } from 'callbag-common'
 
 /**
- * sideEffect
- * --------------
+ * forEach
+ * -------
  *
- * Perform side effects to your data flow. Equivalent to subscribe.
+ * Perform side effects on data flow.
  *
  */
-export const forEach = internalForEach
+export const forEach = subscribe
