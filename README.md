@@ -59,3 +59,8 @@ pipe(
 - forEach: Subscribes to given stream.
 - pipe: Pipes sources to operators to sinks.
 - tap: Taps into given stream.
+
+## Learn more
+
+* [Callbag basics](https://github.com/staltz/callbag-basics)
+* [Why we need callbags](https://staltz.com/why-we-need-callbags.html)
