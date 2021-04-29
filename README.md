@@ -46,6 +46,7 @@ pipe(
 - skip: Ignores the first n of the source.
 - startWith: Start with given values.
 - take: Take a maximum number of values from source.
+- withPrevious: Puts the previous value with current in an array.
 
 ### Combinators
 
