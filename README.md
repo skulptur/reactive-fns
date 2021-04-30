@@ -1,6 +1,6 @@
 ## Motivation
 
-This library is based on the brilliant [Callbag](https://github.com/callbag/callbag) spec by André Staltz, which allows creating both pullable and listenable sources from simple functions. That makes it lightweight and flexible and that's why it shines when used as a primitive for libraries or apps!
+This library is based on the brilliant [Callbag](https://github.com/callbag/callbag) spec by André Staltz, which allows creating both pullable and listenable streams from simple functions. That makes it lightweight and flexible and that's why it shines when used as a primitive for libraries or apps!
 
 
 ## Get started
@@ -27,11 +27,10 @@ pipe(
 )
 ```
 
-
 ### Source Creators
 
 - fromEvent: Listen to DOM event.
-- fromIter: Convert an Iterable or Iterator to a pullable source (only send data when requested).
+- fromIter: Convert an Iterable or Iterator to a pullable stream (only send data when requested).
 - fromPromise: Converts a promise to a stream.
 - interval: Emits an increasing number at given intervals.
 - of: Convert static value(s) to a stream.
@@ -43,17 +42,18 @@ pipe(
 - flatten: Flattens higher-order streams.
 - map: Transforms incoming values.
 - mapTo: Transforms the contents of the stream to the provided value.
-- scan: Combine consecutive values from source.
-- share: Multicast source.
-- skip: Ignores the first n of the source.
+- sample: Operator that samples a pullable stream when a listenable stream emits.
+- scan: Combine consecutive values from stream.
+- share: Multicast stream.
+- skip: Ignores the first n of the stream.
 - skipRepeats: Skips consecutive values that pass the given predicate (defaults to a === b).
 - startWith: Start with given values.
-- take: Take a maximum number of values from source.
+- take: Take a maximum number of values from stream.
 - withPrevious: Puts the previous value with current in an array.
 
 ### Combinators
 
-- concat: Combine sources by putting one source after the previous source ends.
+- concat: Combine streams by putting one stream after the previous stream ends.
 - merge: Merges given streams, emitting when each one emits.
 - combine: Combines given streams, emits arrays of latest values of each.
 
@@ -61,7 +61,7 @@ pipe(
 
 - extract: Get the last emitted value if it exists.
 - forEach: Subscribes to given stream.
-- pipe: Pipes sources to operators to sinks.
+- pipe: Pipes streams to operators to sinks.
 - tap: Taps into given stream.
 
 
