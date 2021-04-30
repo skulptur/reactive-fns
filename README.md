@@ -33,6 +33,7 @@ pipe(
 ### Source Creators
 
 - fromEvent: Listen to DOM event.
+- fromIter: Convert an Iterable or Iterator to a pullable source (only send data when requested).
 - fromPromise: Converts a promise to a stream.
 - interval: Emits an increasing number at given intervals.
 - of: Convert static value(s) to a stream.
