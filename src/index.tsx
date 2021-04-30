@@ -4,6 +4,7 @@ export { concat } from './lib/combinators/concat'
 export { merge } from './lib/combinators/merge'
 // factories
 export { fromEvent } from './lib/factories/fromEvent'
+export { fromIter } from './lib/factories/fromIter'
 export { fromPromise } from './lib/factories/fromPromise'
 export { interval } from './lib/factories/interval'
 export { of } from './lib/factories/of'
