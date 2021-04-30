@@ -79,6 +79,7 @@
     "callbag-merge": "^3.2.2",
     "callbag-of": "^2.0.0",
     "callbag-pipe": "^1.2.0",
+    "callbag-sample": "^2.1.0",
     "callbag-scan": "^1.1.0",
     "callbag-share": "1.3.0",
     "callbag-skip": "1.1.0",
