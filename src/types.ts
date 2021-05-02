@@ -4,4 +4,4 @@ export { Callbag,
     SourceFactory,
     SourceOperator,
     UnwrapSource,
-    UnwrapSink, DATA, START, END } from 'callbag';
+    UnwrapSink, DATA as Data, START as Start, END as End } from 'callbag';
