@@ -2302,6 +2302,11 @@ callbag-debounce@^2.1.3:
   dependencies:
     callbag "^1.2.0"
 
+callbag-empty@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/callbag-empty/-/callbag-empty-1.0.1.tgz#d6211e4197f5315c037239ba5097b51840e7101e"
+  integrity sha512-kndc7wvDCvg4zOtErJJlhT+l7CfjZLRV+vXDF2+W/oN7r5gycRUz/v3mzPevOUyqmARF0bgqNtKbdR1kp4MpvQ==
+
 callbag-expr@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callbag-expr/-/callbag-expr-0.2.0.tgz#80b64a71d99669ba2b4b6824dffad0df914ffcbf"
